@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "cross-env TEST_ENV=test npx playwright test",
     "test_chrome:headed": "TEST_ENV=test npx playwright test --headed",
     "dev_chrome:headless":  "TEST_ENV=dev npx playwright test --headless"
   },
