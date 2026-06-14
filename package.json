@@ -1,0 +1,23 @@
+{
+  "name": "testvagrant-assignement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_chrome:headed": "TEST_ENV=test npx playwright test --headed",
+    "dev_chrome:headless":  "TEST_ENV=dev npx playwright test --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3",
+    "winston": "^3.19.0"
+  }
+}
