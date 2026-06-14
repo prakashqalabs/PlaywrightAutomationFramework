@@ -48,5 +48,5 @@ test('Verify checkout flow should be successful with valid data and total should
     const total = await cartPage.getCheckoutTotal();
     expect(total).toBe('Total: $29.99'); // Replace with expected total based on your test data
     expect(await cartPage.isProductInCart(productToSelect)).toBe(false); // Product should no longer be in cart after checkout
-    await loggedInPage.pause();
+    // await loggedInPage.pause();
 });
