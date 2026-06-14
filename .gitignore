@@ -8,7 +8,7 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
-# Logs
+# Logs 
 logs
 *.log
 npm-debug.log*

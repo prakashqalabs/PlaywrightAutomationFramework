@@ -28,7 +28,7 @@ console.log("PASSWORD =", process.env.PASSWORD);
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: 'tests',
+  testDir: './tests',
   // to set the baseURL for all the tests, we can use the global use property in the config file. This way we don't have to specify the URL in each test case, and if we need to change it, we can do it in one place.
 
   /* Run tests in files in parallel */

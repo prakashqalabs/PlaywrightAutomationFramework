@@ -4,10 +4,6 @@
   "password": "secret_sauce"
 },
 {
-  "username": "visual_user",
-  "password": "secret_sauce"
-},
-{
   "username": "incorrect_user",
   "password": "incorrect_password"
 }
