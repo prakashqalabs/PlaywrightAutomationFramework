@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
-import loginData from '../test-data/ui-data/loginData.json';   
-import { POManager } from '../pages/POManager';
+import loginData from '../../test-data/ui-data/loginData.json';   
+import { POManager } from '../../pages/POManager';
 
 
 test.describe('Data Driven Login Tests', () => {
